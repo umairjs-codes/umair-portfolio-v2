@@ -49,7 +49,7 @@ export default function Footer() {
           {[
             { Icon: GitFork,   href: 'https://github.com/umairjs-codes',                     label: 'GitHub' },
             { Icon: Link2, href: 'https://www.linkedin.com/in/syed-umair-ali-a01b87262/', label: 'LinkedIn' },
-            { Icon: Globe,    href: 'https://umair-s-portfolio-gold.vercel.app/',             label: 'Portfolio' },
+            { Icon: Globe,    href: 'https://umair-portfolio-v2.vercel.app',             label: 'Portfolio' },
           ].map(({ Icon, href, label }) => (
             <motion.a
               key={label}
